@@ -1,0 +1,123 @@
+body {
+  background-color: hsl(203, 41%, 72%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.div-1 {
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  height: 550px;
+  width: 1000px;
+}
+.left-container {
+  padding: 50px;
+  width: 400px;
+}
+
+.div-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-2 p {
+  margin-top: 30px;
+  color: hsl(203, 41%, 72%);
+  width: 150px;
+  text-decoration: underline;
+}
+
+.p-1 {
+  color: hsl(203, 41%, 72%);
+}
+
+.div-3 {
+  display: flex;
+  /* align-items: center; */
+  border: 1px black solid;
+}
+
+.div-3 p {
+  background-color: hsl(203, 41%, 72%);
+  margin: 0px;
+  padding: 10px;
+  align-items: center;
+}
+
+.div-3 input {
+  height: 40px;
+  width: 100%;
+}
+
+.div-9 {
+  background-color: hsl(202, 55%, 16%);
+  padding: 50px;
+  background-image: url("assets/images/illustration-empty.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  text-align: center;
+  padding-top: 250px;
+  background-position: center;
+  width: 500px;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+.div-4 {
+}
+
+.div-11 {
+}
+
+.div-5 {
+  display: flex;
+  height: 40px;
+}
+
+.div-5 p {
+  background-color: hsl(203, 41%, 72%);
+  margin: 0px;
+  width: 30px;
+  padding: 10px;
+  align-items: center;
+  border: 1px black solid;
+}
+
+.div-10 {
+  display: flex;
+}
+
+.div-10 p {
+  background-color: hsl(203, 41%, 72%);
+  margin: 0px;
+  width: 30px;
+  padding: 10px;
+  align-items: center;
+  border: 1px black solid;
+}
+
+.div-7 {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.div-6 {
+  width: 100%;
+  border: 1px solid black;
+  height: 30px;
+}
+
+button {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: hsl(61, 70%, 52%);
+  border: none;
+  height: 40px;
+}
